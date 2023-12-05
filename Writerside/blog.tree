@@ -2,9 +2,12 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="resume"
-                 name="Help Instance"
+<instance-profile id="blog"
+                 name="기록을 하자"
                  start-page="Welcome.md">
 
     <toc-element topic="Welcome.md"/>
+    <toc-element topic="Spring.topic">
+        <toc-element topic="Multi-Datasource.md"/>
+    </toc-element>
 </instance-profile>
